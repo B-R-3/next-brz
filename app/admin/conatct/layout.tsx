@@ -6,7 +6,6 @@ export default function RootLayout({
     return (
       <html lang="fr">
         <body>
-          <h1>je suis en stage </h1>
 
 
         </body>
