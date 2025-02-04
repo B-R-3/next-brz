@@ -1,6 +1,6 @@
 import { Italianno } from 'next/font/google'
 
-import Navbar from '@/src/components/ui/navbar'
+import Navbar from '@/components/ui/navbar'
 
 import './globals.css'
 
