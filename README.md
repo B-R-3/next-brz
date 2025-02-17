@@ -92,9 +92,9 @@ git clone https://github.com/koala819/StarterPack.git
 Cela téléchargera le projet dans un dossier local. 🎉 Vous avez maintenant le projet **Starter Pack** entre vos mains ! 🚀
 
 
-### 6. Supprimer la connexion au dépôt original
+## ❌ Supprimer la connexion au dépôt original 
 
-### Étape 6.1 : Supprimer le lien avec le dépôt distant d'origine
+### 6. Supprimer le lien avec le dépôt distant d'origine
 
 Lorsque tu clones un dépôt, il reste lié au dépôt original comme "remote". Tu dois supprimer ce lien avant de publier ton propre dépôt.
 
@@ -131,18 +131,16 @@ Lorsque tu clones un dépôt, il reste lié au dépôt original comme "remote". 
 
     Cela ne devrait rien afficher.
 
----
 
-## 7. Créer un nouveau dépôt sur GitHub
+### 7. Créer un nouveau dépôt sur GitHub
 
 1. Connecte-toi à ton compte GitHub.
 2. Clique sur le bouton **New Repository** ou va sur [Créer un nouveau dépôt](https://github.com/new).
 3. Remplis les informations pour créer un dépôt (nom, description, etc.) et clique sur **Create repository**.
 4. Ne coche pas les cases pour initialiser le dépôt avec un README, un .gitignore, ou une licence.
 
----
 
-## 8. Lier ton dépôt local à ton propre dépôt GitHub
+### 8. Lier ton dépôt local à ton propre dépôt GitHub
 
 1. Récupère l'URL de ton nouveau dépôt GitHub (elle sera affichée après sa création).
 2. Lien ton dépôt local à ce nouveau dépôt :
@@ -170,9 +168,8 @@ Lorsque tu clones un dépôt, il reste lié au dépôt original comme "remote". 
     origin  https://github.com/ton-utilisateur/ton-depot.git (push)
     ```
 
----
 
-## 9. Publier le dépôt sur GitHub
+### 9. Publier le dépôt sur GitHub
 
 1. Ajoute tous les fichiers (si ce n’est pas encore fait) :
 
@@ -194,28 +191,18 @@ Lorsque tu clones un dépôt, il reste lié au dépôt original comme "remote". 
 
     Remarque : Si ta branche principale s’appelle `master` au lieu de `main`, remplace `main` par `master`.
 
----
 
-## 10. Vérification
+
+### 10. Vérification
 
 Va sur ton dépôt GitHub pour vérifier que tous les fichiers sont bien publiés. Si tout est bon, ton dépôt est maintenant hébergé sur ton propre compte GitHub.
 
----
 
 ## Option : Modifier le contenu du projet avant publication
 
 Si tu souhaites apporter des modifications au code, tu peux les faire dans le répertoire local avant d'exécuter les commandes `git add` et `git push`.
 
----
 
 ## Attention
 
 Si tu récupères un projet open-source, vérifie bien les termes de la licence (s’il y en a une). Certaines licences imposent des règles spécifiques pour réutiliser ou republier le code. Si le dépôt n’a pas de licence, demande l’autorisation de l’auteur avant de republier. 😊
-
-
-
-
-
-
-
-
